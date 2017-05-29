@@ -13,16 +13,16 @@ PrefabFiles = {"gear_axe","gear_mace","sparks2","gear_hat","gear_mask","gear_arm
 Assets = {
     Asset("ATLAS", "images/inventoryimages/gear_axe.xml"),
     Asset("IMAGE", "images/inventoryimages/gear_axe.tex"),
-	
+
     Asset("ATLAS", "images/inventoryimages/gear_mace.xml"),
     Asset("IMAGE", "images/inventoryimages/gear_mace.tex"),	
-	
+
     Asset("ATLAS", "images/inventoryimages/gear_hat.xml"),
     Asset("IMAGE", "images/inventoryimages/gear_hat.tex"),	
-	
+
     Asset("ATLAS", "images/inventoryimages/gear_mask.xml"),
     Asset("IMAGE", "images/inventoryimages/gear_mask.tex"),	
-	
+
     Asset("ATLAS", "images/inventoryimages/gear_armor.xml"),
     Asset("IMAGE", "images/inventoryimages/gear_armor.tex"),	
 
@@ -33,16 +33,16 @@ Assets = {
     Asset("IMAGE", "images/inventoryimages/gear_wings.tex"),	
 
     Asset("ATLAS", "images/inventoryimages/sentinel.xml"),	
-	Asset("IMAGE", "images/inventoryimages/sentinel.tex"),
-	
-	Asset("ATLAS", "images/inventoryimages/gear_torch.xml"),	
-	Asset("IMAGE", "images/inventoryimages/gear_torch.tex"),	
-	
-	Asset("ATLAS", "images/inventoryimages/ws_03.xml"),	
-	Asset("IMAGE", "images/inventoryimages/ws_03.tex"),
-	
-	Asset("ATLAS", "images/inventoryimages/gear_tab.xml"),
-	
+    Asset("IMAGE", "images/inventoryimages/sentinel.tex"),
+
+    Asset("ATLAS", "images/inventoryimages/gear_torch.xml"),	
+    Asset("IMAGE", "images/inventoryimages/gear_torch.tex"),	
+
+    Asset("ATLAS", "images/inventoryimages/ws_03.xml"),	
+    Asset("IMAGE", "images/inventoryimages/ws_03.tex"),
+
+    Asset("ATLAS", "images/inventoryimages/gear_tab.xml"),
+
     Asset( "ATLAS", "images/inventoryimages/gears.xml" ),	
 }
 
@@ -189,75 +189,113 @@ GLOBAL.STRINGS.CHARACTERS.WAXWELL.DESCRIBE.WS_03 = "Now that's a serious inventi
 GLOBAL.STRINGS.CHARACTERS.WAXWELL.DESCRIBE.BULBO = "I almost forgot about this pity creation."
 GLOBAL.STRINGS.CHARACTERS.WAXWELL.DESCRIBE.GEAR_TORCH = "Charlie hates that light."
 
-	if GLOBAL.IsDLCEnabled(GLOBAL.REIGN_OF_GIANTS) then 
+if GLOBAL.IsDLCEnabled(GLOBAL.REIGN_OF_GIANTS) then 
 
---- Wigfrid - items strings
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_AXE = "Stylish axe for destruction!"
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_MACE = "It looks weird, but hits good."
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_HAT = "That supposed to satisfy me?"
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_MASK = "I should relies on strength, not on magic."
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_ARMOR = "This will give me warm during the expedition."
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_HELMET = "It's hard to perform attacks using this heavy helmet."
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_WINGS = "I can fly straight to Valhalla!"
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SENTINEL = "He's my slave now!"
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.WS_03 = "Mighty spider is on my side!"
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.BULBO = "You are no match for me!"
-GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_TORCH = "It's glowing!"
+    --- Wigfrid - items strings
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_AXE = "Stylish axe for destruction!"
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_MACE = "It looks weird, but hits good."
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_HAT = "That supposed to satisfy me?"
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_MASK = "I should relies on strength, not on magic."
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_ARMOR = "This will give me warm during the expedition."
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_HELMET = "It's hard to perform attacks using this heavy helmet."
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_WINGS = "I can fly straight to Valhalla!"
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.SENTINEL = "He's my slave now!"
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.WS_03 = "Mighty spider is on my side!"
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.BULBO = "You are no match for me!"
+    GLOBAL.STRINGS.CHARACTERS.WATHGRITHR.DESCRIBE.GEAR_TORCH = "It's glowing!"
 
---- Webber - items strings
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_AXE = "We can chop tress with style."
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_MACE = "This is too much complicated for us."
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_HAT = "Father would love that hat!"
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_MASK = "Half spider, half crow."
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_ARMOR = "We can take heat with us!"
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_HELMET = "We are protected. We are slow."
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_WINGS = "Best way to create wings - Use silk."
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.SENTINEL = "He's so similar to us!"
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.WS_03 = "We made a perfect friend!"
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.BULBO = "Just like spider, but with a bulb on the head!"
-GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_TORCH = "A true friend!"
-	end
+    --- Webber - items strings
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_AXE = "We can chop tress with style."
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_MACE = "This is too much complicated for us."
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_HAT = "Father would love that hat!"
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_MASK = "Half spider, half crow."
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_ARMOR = "We can take heat with us!"
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_HELMET = "We are protected. We are slow."
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_WINGS = "Best way to create wings - Use silk."
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.SENTINEL = "He's so similar to us!"
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.WS_03 = "We made a perfect friend!"
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.BULBO = "Just like spider, but with a bulb on the head!"
+    GLOBAL.STRINGS.CHARACTERS.WEBBER.DESCRIBE.GEAR_TORCH = "A true friend!"
+end
 
 --- All recipes
 
-local gear_axerecipe = Recipe( "gear_axe", { Ingredient("axe", 1),Ingredient("gears", 1),Ingredient("flint", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_ONE)
-gear_axerecipe.atlas = "images/inventoryimages/gear_axe.xml"
+if GLOBAL.IsDLCEnabled(GLOBAL.CAPY_DLC) then
 
-local gear_torchrecipe = Recipe( "gear_torch", { Ingredient("lightbulb", 1),Ingredient("gears", 1),Ingredient("twigs", 4) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_ONE)
-gear_torchrecipe.atlas = "images/inventoryimages/gear_torch.xml"
+    local gear_axerecipe = Recipe( "gear_axe", { Ingredient("axe", 1),Ingredient("gears", 1),Ingredient("flint", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_ONE, GLOBAL.RECIPE_GAME_TYPE.COMMON)
+    gear_axerecipe.atlas = "images/inventoryimages/gear_axe.xml"
 
-local gear_macerecipe = Recipe( "gear_mace", { Ingredient("gears", 3),Ingredient("boards", 2) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
-gear_macerecipe.atlas = "images/inventoryimages/gear_mace.xml"
+    local gear_torchrecipe0 = Recipe( "gear_torch", { Ingredient("lightbulb", 1),Ingredient("gears", 1),Ingredient("twigs", 4) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_ONE, GLOBAL.RECIPE_GAME_TYPE.VANILLA)
+    gear_torchrecipe0.atlas = "images/inventoryimages/gear_torch.xml"
 
-local gear_hatrecipe = Recipe( "gear_hat", { Ingredient("tophat", 1),Ingredient("gears", 1),Ingredient("goldnugget", 2) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
-gear_hatrecipe.atlas = "images/inventoryimages/gear_hat.xml"
+    -- local gear_torchrecipe2 = Recipe( "gear_torch", { Ingredient("bioluminescence", 1),Ingredient("gears", 1),Ingredient("twigs", 4) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_ONE, GLOBAL.RECIPE_GAME_TYPE.SHIPWRECKED)
+    -- gear_torchrecipe2.atlas = "images/inventoryimages/gear_torch.xml"
 
-local gear_maskrecipe = Recipe( "gear_mask", { Ingredient("feather_crow", 12),Ingredient("gears", 2),Ingredient("silk", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
-gear_maskrecipe.atlas = "images/inventoryimages/gear_mask.xml"
+    local gear_macerecipe = Recipe( "gear_mace", { Ingredient("gears", 3),Ingredient("boards", 2) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO, GLOBAL.RECIPE_GAME_TYPE.COMMON)
+    gear_macerecipe.atlas = "images/inventoryimages/gear_mace.xml"
 
-local gear_armorrecipe = Recipe( "gear_armor", { Ingredient("armorwood", 1),Ingredient("gears", 4),Ingredient("charcoal", 5) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
-gear_armorrecipe.atlas = "images/inventoryimages/gear_armor.xml"
+    local gear_hatrecipe = Recipe( "gear_hat", { Ingredient("tophat", 1),Ingredient("gears", 1),Ingredient("goldnugget", 2) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO, GLOBAL.RECIPE_GAME_TYPE.COMMON)
+    gear_hatrecipe.atlas = "images/inventoryimages/gear_hat.xml"
 
-local gear_helmetrecipe = Recipe( "gear_helmet", { Ingredient("beehat", 1),Ingredient("gears", 3),Ingredient("marble", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
-gear_helmetrecipe.atlas = "images/inventoryimages/gear_helmet.xml"
+    local gear_maskrecipe = Recipe( "gear_mask", { Ingredient("feather_crow", 12),Ingredient("gears", 2),Ingredient("silk", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO, GLOBAL.RECIPE_GAME_TYPE.COMMON)
+    gear_maskrecipe.atlas = "images/inventoryimages/gear_mask.xml"
 
-local gear_wingsrecipe = Recipe( "gear_wings", { Ingredient("silk", 5),Ingredient("gears", 2),Ingredient("boards", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
-gear_wingsrecipe.atlas = "images/inventoryimages/gear_wings.xml"
+    local gear_armorrecipe = Recipe( "gear_armor", { Ingredient("armorwood", 1),Ingredient("gears", 4),Ingredient("charcoal", 5) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO, GLOBAL.RECIPE_GAME_TYPE.COMMON)
+    gear_armorrecipe.atlas = "images/inventoryimages/gear_armor.xml"
 
-local sentinelerecipe = Recipe( "sentinel", { Ingredient("gears", 1),Ingredient("boards", 2),Ingredient("flint", 4) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
-sentinelerecipe.atlas = "images/inventoryimages/sentinel.xml"
+    local gear_helmetrecipe = Recipe( "gear_helmet", { Ingredient("beehat", 1),Ingredient("gears", 3),Ingredient("marble", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO, GLOBAL.RECIPE_GAME_TYPE.COMMON)
+    gear_helmetrecipe.atlas = "images/inventoryimages/gear_helmet.xml"
 
-local ws_03recipe = Recipe( "ws_03", { Ingredient("spiderhat",1), Ingredient("gears", 6),Ingredient("boards", 6) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
-ws_03recipe.atlas = "images/inventoryimages/ws_03.xml"
+    local gear_wingsrecipe = Recipe( "gear_wings", { Ingredient("silk", 5),Ingredient("gears", 2),Ingredient("boards", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO, GLOBAL.RECIPE_GAME_TYPE.COMMON)
+    gear_wingsrecipe.atlas = "images/inventoryimages/gear_wings.xml"
 
+    local sentinelerecipe = Recipe( "sentinel", { Ingredient("gears", 1),Ingredient("boards", 2),Ingredient("flint", 4) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO, GLOBAL.RECIPE_GAME_TYPE.COMMON)
+    sentinelerecipe.atlas = "images/inventoryimages/sentinel.xml"
+
+    local ws_03recipe = Recipe( "ws_03", { Ingredient("spiderhat",1), Ingredient("gears", 6),Ingredient("boards", 6) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO, GLOBAL.RECIPE_GAME_TYPE.COMMON)
+    ws_03recipe.atlas = "images/inventoryimages/ws_03.xml"
+
+else
+
+    local gear_axerecipe = Recipe( "gear_axe", { Ingredient("axe", 1),Ingredient("gears", 1),Ingredient("flint", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_ONE)
+    gear_axerecipe.atlas = "images/inventoryimages/gear_axe.xml"
+
+    local gear_torchrecipe = Recipe( "gear_torch", { Ingredient("lightbulb", 1),Ingredient("gears", 1),Ingredient("twigs", 4) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_ONE)
+    gear_torchrecipe.atlas = "images/inventoryimages/gear_torch.xml"
+
+    local gear_macerecipe = Recipe( "gear_mace", { Ingredient("gears", 3),Ingredient("boards", 2) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
+    gear_macerecipe.atlas = "images/inventoryimages/gear_mace.xml"
+
+    local gear_hatrecipe = Recipe( "gear_hat", { Ingredient("tophat", 1),Ingredient("gears", 1),Ingredient("goldnugget", 2) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
+    gear_hatrecipe.atlas = "images/inventoryimages/gear_hat.xml"
+
+    local gear_maskrecipe = Recipe( "gear_mask", { Ingredient("feather_crow", 12),Ingredient("gears", 2),Ingredient("silk", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
+    gear_maskrecipe.atlas = "images/inventoryimages/gear_mask.xml"
+
+    local gear_armorrecipe = Recipe( "gear_armor", { Ingredient("armorwood", 1),Ingredient("gears", 4),Ingredient("charcoal", 5) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
+    gear_armorrecipe.atlas = "images/inventoryimages/gear_armor.xml"
+
+    local gear_helmetrecipe = Recipe( "gear_helmet", { Ingredient("beehat", 1),Ingredient("gears", 3),Ingredient("marble", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
+    gear_helmetrecipe.atlas = "images/inventoryimages/gear_helmet.xml"
+
+    local gear_wingsrecipe = Recipe( "gear_wings", { Ingredient("silk", 5),Ingredient("gears", 2),Ingredient("boards", 3) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
+    gear_wingsrecipe.atlas = "images/inventoryimages/gear_wings.xml"
+
+    local sentinelerecipe = Recipe( "sentinel", { Ingredient("gears", 1),Ingredient("boards", 2),Ingredient("flint", 4) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
+    sentinelerecipe.atlas = "images/inventoryimages/sentinel.xml"
+
+    local ws_03recipe = Recipe( "ws_03", { Ingredient("spiderhat",1), Ingredient("gears", 6),Ingredient("boards", 6) }, RECIPETABS.GEAR_TAB, TECH.SCIENCE_TWO)
+    ws_03recipe.atlas = "images/inventoryimages/ws_03.xml"
+
+end
 
 modimport "steam_loot.lua"
 
 --- All minimap atlases
 
 function AddMap(inst)
-        local minimap = inst.entity:AddMiniMapEntity()
-        minimap:SetIcon( inst.prefab .. ".tex" )
+    local minimap = inst.entity:AddMiniMapEntity()
+    minimap:SetIcon( inst.prefab .. ".tex" )
 end
 
 AddPrefabPostInit("gears", AddMap)
@@ -276,21 +314,21 @@ AddMinimapAtlas("images/inventoryimages/gear_torch.xml")
 
 --- Trade for WS's
 function addtradablecomponenttoprefab(inst)
-	if not inst.components.tradable then
-		inst:AddComponent("tradable")
-	end
+    if not inst.components.tradable then
+        inst:AddComponent("tradable")
+    end
 end	 
 
 AddPrefabPostInit("gears", addtradablecomponenttoprefab)
 
 local function Sentinel( inst )
 
-	inst:DoTaskInTime( 0, function() 
-		local controls = inst.HUD.controls
-		local Sentinel_Health = require "widgets/sentinel_health"
-		controls.petStatus = controls:AddChild(Sentinel_Health(inst))
-		controls.petStatus:SetPosition(0, -250, 0)
-	end)
+    inst:DoTaskInTime( 0, function() 
+        local controls = inst.HUD.controls
+        local Sentinel_Health = require "widgets/sentinel_health"
+        controls.petStatus = controls:AddChild(Sentinel_Health(inst))
+        controls.petStatus:SetPosition(0, -250, 0)
+    end)
 
 end
 
@@ -298,89 +336,89 @@ AddSimPostInit( Sentinel )
 
 function lootdropperpostinit(inst)
 
-	inst.GenerateLoot = function(self)
-    local loots = {}
-    
-    if self.numrandomloot and math.random() <= (self.chancerandomloot or 1) then
-		for k = 1, self.numrandomloot do
-		    local loot = self:PickRandomLoot()
-		    if loot then
-			    table.insert(loots, loot)
-			end
-		end
-	end
-    
-    if self.chanceloot then
-		for k,v in pairs(self.chanceloot) do
-			if math.random() < v.chance then
-				table.insert(loots, v.prefab)
-				self.droppingchanceloot = true
-			end
-		end
-	end
+    inst.GenerateLoot = function(self)
+        local loots = {}
 
-    if self.chanceloottable then
-    	local loot_table = GLOBAL.LootTables[self.chanceloottable]
-    	if loot_table then
-    		for i, entry in ipairs(loot_table) do
-    			local prefab = entry[1]
-    			local chance = entry[2]    			
-				if math.random() <= chance then
-					table.insert(loots, prefab)
-					self.droppingchanceloot = true
-				end
-			end
-		end
-	end
+        if self.numrandomloot and math.random() <= (self.chancerandomloot or 1) then
+            for k = 1, self.numrandomloot do
+                local loot = self:PickRandomLoot()
+                if loot then
+                    table.insert(loots, loot)
+                end
+            end
+        end
 
-	if not self.droppingchanceloot and self.ifnotchanceloot then
-		self.inst:PushEvent("ifnotchanceloot")
-		for k,v in pairs(self.ifnotchanceloot) do
-			table.insert(loots, v.prefab)
-		end
-	end
+        if self.chanceloot then
+            for k,v in pairs(self.chanceloot) do
+                if math.random() < v.chance then
+                    table.insert(loots, v.prefab)
+                    self.droppingchanceloot = true
+                end
+            end
+        end
+
+        if self.chanceloottable then
+            local loot_table = GLOBAL.LootTables[self.chanceloottable]
+            if loot_table then
+                for i, entry in ipairs(loot_table) do
+                    local prefab = entry[1]
+                    local chance = entry[2]    			
+                    if math.random() <= chance then
+                        table.insert(loots, prefab)
+                        self.droppingchanceloot = true
+                    end
+                end
+            end
+        end
+
+        if not self.droppingchanceloot and self.ifnotchanceloot then
+            self.inst:PushEvent("ifnotchanceloot")
+            for k,v in pairs(self.ifnotchanceloot) do
+                table.insert(loots, v.prefab)
+            end
+        end
 
 
-    
-    if self.loot then
-		for k,v in ipairs(self.loot) do
-			table.insert(loots, v)
-		end
-	end
-	
-	local recipe = GLOBAL.GetRecipe(self.inst.prefab)
 
-	if recipe and not self.inst.components.norecipelootdrop then
-	
+        if self.loot then
+            for k,v in ipairs(self.loot) do
+                table.insert(loots, v)
+            end
+        end
 
-		
-		local percent = 1
+        local recipe = GLOBAL.GetRecipe(self.inst.prefab)
 
-		if self.inst.components.finiteuses then
-			percent = self.inst.components.finiteuses:GetPercent()
-		end
+        if recipe and not self.inst.components.norecipelootdrop then
 
-		for k,v in ipairs(recipe.ingredients) do
-			local amt = math.ceil( (v.amount * TUNING.HAMMER_LOOT_PERCENT) * percent)
-			for n = 1, amt do
-				table.insert(loots, v.type)
-			end
-		end
-	end
-    
-    return loots
+
+
+            local percent = 1
+
+            if self.inst.components.finiteuses then
+                percent = self.inst.components.finiteuses:GetPercent()
+            end
+
+            for k,v in ipairs(recipe.ingredients) do
+                local amt = math.ceil( (v.amount * TUNING.HAMMER_LOOT_PERCENT) * percent)
+                for n = 1, amt do
+                    table.insert(loots, v.type)
+                end
+            end
+        end
+
+        return loots
 
     end
 
 
 end	   
-	   
+
 AddComponentPostInit("lootdropper", lootdropperpostinit)
 
 function HF_addtradablecomponenttoprefab(inst)
-	if not inst.components.tradable then
-		inst:AddComponent("tradable")
-	end
+    if not inst.components.tradable then
+        inst:AddComponent("tradable")
+    end
 end	 
 
 AddPrefabPostInit("gear_axe", HF_addtradablecomponenttoprefab)
